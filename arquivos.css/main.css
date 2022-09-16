@@ -1,0 +1,80 @@
+h1 {
+    color: Green;
+}
+
+h2 {
+    color: green;
+
+}
+#economy h2{
+    color: gold;
+}
+.creation_date {
+    color:#ccc
+}
+
+*{
+    color: black
+
+}
+
+#entertainment h2{
+    color: purple;
+}
+
+.Hora1 {
+    color: purple;
+}
+
+
+.um{
+    color:purple;
+}
+.dois{
+    color:purple;
+}
+
+
+.Hora2 {
+    color: purple;
+}
+.tres{
+    color:purple;
+}
+.quatro{
+    color:purple;
+}
+.Hora3{
+    color: purple;
+}
+.cinco{
+    color:purple;
+}
+.seis{
+    color:purple;
+}
+
+#technology h2{
+    color:orangered
+}
+.Hora4 {
+    color: orangered;
+}
+.sete{
+    color:orangered;
+}
+.oito{
+    color: orangered
+}
+
+.Hora5 {
+    color: orangered;
+}
+.nove{
+    color:orangered
+}
+.dez{
+    color:orangered
+}
+
+

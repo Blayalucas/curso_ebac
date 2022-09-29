@@ -1,33 +1,19 @@
  /* Função Validar */
 function validar() {
 
-// pegando o valor do nome pelos names
-var nome = document.getElementById("nome-beneficiario");
-var rg = document.getElementById("rg");
-var cpf = document.getElementById("cpf");
+// Criando variavel result 
+let result = document.getElementById ("resultado")
+result.innerHTML = "";
 
-// verificar se o nome está preenchido completamente
-if (nome.value == "") {
-    alert("Nome não informado");
+// pegando o valor do nome pelos id`s
+var campoa = parseFloat (document.getElementById("campoa").value);
+var campob = parseFloat (document.getElementById("campob ").value);
 
-// Deixa o input com o focus
-    nome.focus();
-// retorna a função e não olha as outras linhas
-    return;
+// Validar quando o Campo B for maior que o Campo A  com if /Else
+if (campob>campoa) {
+    result.innerHTML += "Formulário Valido";
 }
-
-if (rg.value == "") {
-    alert("Sobrenome não informado");
-    rg.focus();
-    return;
+else {
+    result.innerHTML += "Formulário Invalido";
 }
-if (cpf.value == "") {
-    alert("CPF não informado");
-    cpf.focus();
-    return;
 }
-alert("Formulário enviado!");
-  // envia o formulário
-  //formulario.submit ;
-}
-

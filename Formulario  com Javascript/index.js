@@ -1,19 +1,20 @@
- /* Função Validar */
-function validar() {
+ 
+// Variavel Form 
+    const form= document.getElementById("form-deposito");
 
-// Criando variavel result 
-let result = document.getElementById ("resultado")
-result.innerHTML = "";
+//submissão do formulário e criando uma função Eventos e uma variavel
+form.addEventListener('submit', function (e) {
+    e.preventDefault();
 
-// pegando o valor do nome pelos id`s
-var campoa = parseFloat (document.getElementById("campoa").value);
-var campob = parseFloat (document.getElementById("campob ").value);
+// Variais campoa e campob
+    
+    const campoa= document.getElementById("campoa").valueAsNumber;
+    const campob= document.getElementById("campob").valueAsNumber;
 
-// Validar quando o Campo B for maior que o Campo A  com if /Else
-if (campob>campoa) {
-    result.innerHTML += "Formulário Valido";
+    if(campob > campoa){
+        alert("Formulário Válido");
+} else{
+        alert("Formulário inválido!!! O campo B deve ser maior que o campo A");
 }
-else {
-    result.innerHTML += "Formulário Invalido";
-}
-}
+
+});

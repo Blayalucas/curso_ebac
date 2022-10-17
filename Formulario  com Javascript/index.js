@@ -6,10 +6,12 @@
 form.addEventListener('submit', function (e) {
     e.preventDefault();
 
-// Variais campoa e campob
+// Variais campoa e campob com o comando Value  que  retorna um numero
     
     const campoa= document.getElementById("campoa").valueAsNumber;
     const campob= document.getElementById("campob").valueAsNumber;
+ 
+ // if e Else
 
     if(campob > campoa){
         alert("Formulário Válido");

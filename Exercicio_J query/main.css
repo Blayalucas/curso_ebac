@@ -1,0 +1,49 @@
+*{
+    Margin: 0;
+    Padding:0;
+    box-sizing: border-box;
+    font-family: 'Bungee', cursive;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+/* Corpo do formulario  */
+body{
+    background-color: #e7e7e7;
+    padding-top: 70px;
+}
+
+/* Estilo do container  */
+.container {
+    margin: 10px auto;
+    max-width: 500px;
+    width: 100%;
+
+}
+/* Riscar Texto */
+.riscar {
+    text-decoration: line-through;
+}
+
+/* estilar o formulário  */
+form {
+    margin-top: 230px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: normal;
+    margin-left: 16px;
+}
+form button{
+    background-color: #5c76888a;
+    padding: 40px;
+    color:#fff;
+    font-size: 24px;
+    font-weight: bold;
+    justify-content: center;
+    border: none;
+    cursor: pointer;
+    padding: 8px;
+    margin-left: 10px;
+}
+button:hover {
+    background-color: #2e2f35;
+}
+
